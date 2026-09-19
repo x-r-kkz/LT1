@@ -14,7 +14,8 @@ floor_area = math.floor(area)
 ceiling_area = math.ceil(area)
 
 # OUTPUT STAGE
-print(f"Here are the measurements of your garden:\n"
-      f"Area: {area:.2f}\n"
-      f"Circumference: {circumference:.2f}\n"
-      f"Square root of the area: {root_area:.2f}") # :.2f only displays 2 decimal places
+print(f"Area of the garden: {area:.2f}\n"
+      f"Circumference of the garden: {circumference:.2f}\n"
+      f"Square root of the area: {root_area:.2f}\n"
+      f"Area rounded down: {floor_area:.2f}\n"
+      f"Area rounded up: {ceiling_area:.2f}") # :.2f only displays 2 decimal places
